@@ -1,0 +1,5 @@
+#!/usr/bin/python
+str = 'A'*78
+print(str)
+
+

