@@ -20,11 +20,11 @@ Instructions:
 	./fuzz > f
 
 5. Create Makefile for ease
-	filename: Makefile
-	content:
 
-		buffermake: BufferOverFlow.c
-			gcc -g -fno-stack-protector -z execstack -no-pie -m64 BufferOverFlow.c -o BOF
+		filename: Makefile
+		content:
+			buffermake: BufferOverFlow.c
+				gcc -g -fno-stack-protector -z execstack -no-pie -m64 BufferOverFlow.c -o BOF
 
 	explanations:
 
